@@ -1,6 +1,4 @@
-#ifndef QUEUE_H
-#define QUEUE_H
-
+#pragma once
 class Queue{
     public:
         Queue(int initSize = 10);
@@ -20,5 +18,3 @@ class Queue{
         bool isFull();
         bool isEmpty();
 };
-
-#endif

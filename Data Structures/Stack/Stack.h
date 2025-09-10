@@ -1,5 +1,4 @@
-#ifndef STACK_H
-#define STACK_H
+#pragma once
 
 class Stack {
 public:
@@ -17,5 +16,3 @@ private:
     bool isFull();
     bool isEmpty();
 };
-
-#endif
